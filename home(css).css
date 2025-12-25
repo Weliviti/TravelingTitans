@@ -12,3 +12,11 @@
     border-radius: 10px;         /* Optional: rounded corners */
     box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Optional: subtle shadow */
 }
+
+
+.welcome-left img {
+    max-width: 400px;                 /* Limit image size */
+    width: 100%;                      /* Responsive */
+    border-radius: 15px;              /* Rounded corners */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Optional shadow */
+}
