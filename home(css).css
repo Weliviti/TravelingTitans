@@ -1,0 +1,14 @@
+/* Video Section */
+.video-container {
+    display: flex;               /* Flexbox for easy centering */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically if needed */
+    margin: 70px 0;              /* Space above and below the video */
+}
+
+.video-container video {
+    max-width: 65%;              /* Responsive width (80% of parent container) */
+    height: auto;                /* Maintain aspect ratio */
+    border-radius: 10px;         /* Optional: rounded corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Optional: subtle shadow */
+}

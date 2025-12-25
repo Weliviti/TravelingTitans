@@ -46,27 +46,29 @@ body {
    NAVIGATION LINKS
    ========================================= */
 .nav a {
-    margin-left: 30px;              /* Space between each link */
+    margin-left: 50px;              /* Space between each link */
     text-decoration: none;          /* Remove underline from links */
     font-weight: 500;               /* Medium font weight */
     color: #E6F2EF;                 /* Light text color for nav links */
     position: relative;             /* Required for pseudo-elements like ::after */
-    padding-bottom: 5px;            /* Space at bottom for hover/underline effect */
+    
     transition: all 0.3s ease;      /* Smooth animation for hover effects */
+    padding: 15px 20px;             /* top/bottom 10px, left/right 20px */
 }
 
 /* Hover effect on nav links */
 .nav a:hover {
     color: #ffffff;                 /* Link turns white on hover */
+    
 }
 
 /* Active link styling */
 .nav a.active {
     color: #ffffff;                 /* Active link text color white */
-    font-weight: 600;               /* Slightly bolder than normal */
+    
     background-color: rgb(34, 148, 180); /* Highlight active link */
     border-radius: 20px;            /* Rounded corners for active link */
-    padding: 20px;                  /* Inner spacing for active link */
+                   
 }
 
 /* Active link underline (pseudo-element) */
