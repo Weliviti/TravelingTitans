@@ -30,3 +30,41 @@
     box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Optional shadow */
 }
 
+/*images section*/
+/* Gallery Section */
+.gallery-section {
+    padding: 60px 20px;
+    background-color: #F4F7F5; /* optional: light background */
+    text-align: center;
+}
+
+.gallery-section h2 {
+    font-size: 32px;
+    color: #2F5D50;
+    margin-bottom: 40px;
+}
+
+.gallery-row {
+    display: flex;          /* Arrange images in a row */
+    gap: 30px;              /* Space between images */
+    justify-content: center;
+    flex-wrap: wrap;        /* Wrap on smaller screens */
+    margin-bottom: 40px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px); /* 3 per row with spacing */
+    max-width: 400px;                /* Limit max size of each image */
+}
+
+.gallery-item img {
+    width: 100%;              /* Image fills its container */
+    height: auto;             /* Maintain aspect ratio */
+    border-radius: 15px;      /* Rounded corners */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Optional shadow */
+    transition: transform 0.3s ease;  /* Smooth hover animation */
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);  /* Slight zoom on hover */
+}
