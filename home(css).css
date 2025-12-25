@@ -13,10 +13,20 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Optional: subtle shadow */
 }
 
-
+/* Welcome Section */
+.welcome-section {
+    display: flex;                    /* Create two columns */
+    align-items: center;              /* Vertically center content */
+    justify-content: center;          /* Center the section horizontally */
+    gap: 50px;                        /* Space between image and text */
+    padding: 60px 20px;               /* Top/Bottom and side padding */
+    background-color: #E6F2EF;        /* Optional: light background */
+    flex-wrap: wrap;                  /* Wrap on smaller screens */
+}
 .welcome-left img {
     max-width: 400px;                 /* Limit image size */
     width: 100%;                      /* Responsive */
     border-radius: 15px;              /* Rounded corners */
     box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Optional shadow */
 }
+
