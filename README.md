@@ -1,5 +1,5 @@
 # TravelingTitans
- ├── index.html
+ ├── home.html
  ├── gallery.html
  ├── bikes.html
  ├── roads.html
