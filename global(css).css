@@ -12,7 +12,7 @@
    ========================================= */
 body {
     font-family: "Times new roman", serif; /* Set default font for the whole page */
-    background-color: #F4F7F5;             /* Light grey-green background for the page */
+    background-color: #e8e0be;             
                     /* Default text color: dark gray */
 }
 
@@ -48,9 +48,10 @@ body {
 .nav a {
     margin-left: 50px;              /* Space between each link */
     text-decoration: none;          /* Remove underline from links */
-    font-weight: 500;               /* Medium font weight */
+    font-weight: 800;               /* Medium font weight */
     color: #E6F2EF;                 /* Light text color for nav links */
     position: relative;             /* Required for pseudo-elements like ::after */
+    font-size: 20px;                  /* Font size for nav links */
     
     transition: all 0.3s ease;      /* Smooth animation for hover effects */
     padding: 15px 20px;             /* top/bottom 10px, left/right 20px */
@@ -60,6 +61,7 @@ body {
 .nav a:hover {
     color: #ffffff;                 /* Link turns white on hover */
     
+    
 }
 
 /* Active link styling */
@@ -68,7 +70,7 @@ body {
     
     background-color: rgb(34, 148, 180); /* Highlight active link */
     border-radius: 20px;            /* Rounded corners for active link */
-                   
+    transition: all 2s ease;      /* Smooth animation for hover effects */
 }
 
 /* Active link underline (pseudo-element) */
